@@ -318,7 +318,7 @@ var beagle = require('./dogs/beagle');
 
 ## Node.js modules
 
-With the exception of your main file, most of your JavaScript files will be written as node.js modules. This is analogous to how in most object-oriented platforms, you write classes. In node.js, you write modules.
+With the exception of your main file, most of your JavaScript files will be written as node.js modules. This is analogous to how in most object-oriented platforms you write classes. In node.js, you write modules.
 
 There are 3 ways to write a node.js module. Most often, you'd want to write your files using Pattern #1.
 
@@ -336,7 +336,7 @@ exports.hello = function (name) {
 };
 ```
 
-In an OOP language, this is similar to you creating a `greet` class with a method `hello(name)`. The `exports` object exposes your `hello()` function, similar to the `public` access modifier in OOP.
+In an OOP language, this is similar to you creating a `greet` class with a method `hello(name)`. The `exports` object exposes your `hello()` function, similar to the `public` access modifier in other languages.
 
 Let's create a new file called `app.js`. This will be our main JavaScript file. Let's place the following code:
 
@@ -368,7 +368,7 @@ exports.hello = function (name, callback) {
 
 We added a second parameter named `callback`. This is a function which will accept the output of `hello()` as parameters. In this case, it's the contents of `greeting`.
 
-Instead of returning a value, we pass the output by invoking the callback function. This cool since we can pass multiple values as multiple parameters of the callback function.
+Instead of returning a value, we pass the output by invoking the callback function. This is cool since we can pass multiple values as multiple parameters of the callback function.
 
 We also need to modify our `app.js` to follow the new asynchronous pattern.
 
