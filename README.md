@@ -7,7 +7,7 @@ This tutorial will cover the basics of the following:
 * how to code and understand asynchronous commands
 * how to use and create node modules
 
-I won't teach you how to create websites or APIs nor will I teach you JavaScript 101.
+I won't teach you how to create websites or APIs nor will I teach you JavaScript 101 (if you forgot what JavaScript syntax looks like, [here's a syntax reference](https://github.com/hyubs/basic-js-syntax)).
 
 After this tutorial, you can jump to other tutorials that are specific to what you want to create using node.js.
 
